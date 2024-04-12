@@ -1,0 +1,4 @@
+name: THoLLogging
+version: '${project.version}'
+main: com.melodicalbuild.thollogging.THoLLogging
+api-version: '1.20'
