@@ -2,6 +2,8 @@ package com.melodicalbuild.thollogging.log;
 
 import com.melodicalbuild.thollogging.THoLLogging;
 
+import com.melodicalbuild.thollogging.utils.LoggedEvent;
+import com.melodicalbuild.thollogging.utils.Utils;
 import org.bukkit.block.Block;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Entity;
