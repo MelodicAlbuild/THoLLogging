@@ -2,3 +2,30 @@ name: THoLLogging
 version: '${project.version}'
 main: com.melodicalbuild.thollogging.THoLLogging
 api-version: '1.20'
+prefix: THLog
+author: MelodicAlbuild
+description: The Super Logging System for the THoL Community
+depend:
+  - THoLCore
+commands:
+  superlog:
+    description: Main command for the plugin. Display help.
+    aliases:
+      - log
+      - slog
+      - sl
+permissions:
+  superlog.*:
+    description: Gives all permissions
+  superlog.notify:
+    description: Get logs messages in game
+  superlog.commands.*:
+    description: Give access to commands
+    children:
+      superlog.commands.access: true
+      superlog.commands.filterer: true
+      superlog.commands.live: true
+      superlog.commands.player: true
+      superlog.commands.reload: true
+      superlog.commands.save: true
+      superlog.commands.toggle: true
